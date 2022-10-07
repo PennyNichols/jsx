@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   const tasks = 10;
@@ -10,12 +11,15 @@ function App() {
 
   return (
   
-    // <div style={{backgroundColor:'violet', margin:'10px'}}>
-    <div style={styles}>
-      <h1>My Task List</h1>
-      <p>Total Tasks: {tasks}</p>
-      <p>Completed Tasks: {completed}</p>
-    </div>
+    // // <div style={{backgroundColor:'violet', margin:'10px'}}>
+    // <div style={styles}>
+    //   <h1>My Task List</h1>
+    //   <p>Total Tasks: {tasks}</p>
+    //   <p>Completed Tasks: {completed}</p>
+    // </div>
+
+    <Header />
+
   );
 }
 
