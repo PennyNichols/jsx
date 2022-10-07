@@ -2,12 +2,12 @@ import './App.css';
 import Header from './components/Header';
 
 function App() {
-  const tasks = 10;
-  const completed = 5;
-  let styles = {
-    backgroundColor:"violet",
-    margin: '30px'
-  }
+//   const tasks = 10;
+//   const completed = 5;
+//   let styles = {
+//     backgroundColor:"violet",
+//     margin: '30px'
+//   }
 
   return (
   
@@ -18,7 +18,10 @@ function App() {
     //   <p>Completed Tasks: {completed}</p>
     // </div>
 
-    <Header />
+    // <Header />
+
+    <Header title='Best App Ever!' bg='purple'/>
+
 
   );
 }
