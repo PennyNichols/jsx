@@ -1,12 +1,16 @@
 import './App.css';
 
 function App() {
+  const tasks = 10;
+  const completed = 5;
+
+
   return (
-    <div>
-      <form>
-        <label htmlFor="name"></label>
-        <input type="text" id="name"/>
-      </form>
+  
+    <div style={{backgroundColor:'violet', margin:'10px'}}>
+      <h1>My Task List</h1>
+      <p>Total Tasks: {tasks}</p>
+      <p>Completed Tasks: {completed}</p>
     </div>
   );
 }
